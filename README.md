@@ -60,5 +60,7 @@ Change training from 0 to 1, and change data_dir_name to the folder of data set 
 
 
 # References
-RBPsuite: Pan, X., Fang, Y., Li, X., Yang, Y., & Shen, H. B. (2020). RBPsuite: RNA-protein binding sites prediction suite based on deep learning. BMC genomics, 21(1), 1-8.
-Transformer: Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. "Attention is all you need." Advances in neural information processing systems 30 (2017).
+* RBPsuite: Pan, X., Fang, Y., Li, X., Yang, Y., & Shen, H. B. (2020). RBPsuite: RNA-protein binding sites prediction suite based on deep learning. BMC genomics, 21(1), 1-8.
+* Transformer: Vaswani, Ashish, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, and Illia Polosukhin. "Attention is all you need." Advances in neural information processing systems 30 (2017).
+* Statistical potentials: Kimura, T., Yasuo, N., Sekijima, M., & Lustig, B. (2022). Statistical potentials for RNA-protein interactions optimized by CMA-ES. Journal of Molecular Graphics and Modelling, 110, 108044.
+* MMseqs2: Steinegger, M., & Söding, J. (2017). MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nature biotechnology, 35(11), 1026-1028.
