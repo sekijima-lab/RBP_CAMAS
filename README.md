@@ -10,7 +10,7 @@ Dataset is not included here. However, dataset is made from RBPsuite dataset wit
 
 ## Statistical Potential
 ![Potentials](data/statpots.png)
-Optimized Statistical potential data is in the data folder (best_pot_subset1_nocv.csv). See the ordinate of the figure above for the annotation of the values.
+Optimized Statistical potential data is in the data folder (best_pot_subset1_nocv.csv). See the ordinate of the figure above for the annotation of the values. For example, the first column is the statistical potential between ALA and Adenine, and the value is around -0.11.
 
 # How to Run
 ## preprocessing
