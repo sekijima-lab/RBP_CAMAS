@@ -9,7 +9,7 @@ Python scripts are in the python folder. The main script is /python/single_node/
 Dataset is not included here. However, dataset is made from RBPsuite dataset with scripts in python folder. In the preprocessing, RBPsuite data is clustered, selected, shuffled. Then, three types of masks and potential matrices are added, and sequences are tokenized. You need to preprocess before running RBP. Please rename folder names according to your environment. See the flow chart data_flow.pdf for preprocessing. If you would like to test your data, it must be preprocessed, too. 
 
 ## Statistical Potential
-![Potentials](statpots.tif)
+![Potentials](../../data/statpots.png)
 Optimized Statistical potential data is in the data folder (best_pot_subset1_nocv.csv). See the ordinate of the figure above for the annotation of the values.
 
 # How to Run
