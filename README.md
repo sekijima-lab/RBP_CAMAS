@@ -2,15 +2,15 @@
 RBP-CAMAS is a classifier with Transformer to predict RNA-protein binding regeion on RNA. Input data are sequences of RNA (101nt) and protein molecule. Training data is made from RBPsuite (http://www.csbio.sjtu.edu.cn/bioinf/RBPsuite/)
 
 # Code
-Python scripts are in the python folder. The main script is /python/single_node/single_node.py Preprocessing scripts are in 
+All python scripts required are in the python folder. The main script is /python/single_node/single_node.py.
 
 # Dataset
 ## Training Data
-Dataset is not included here. However, dataset is made from RBPsuite dataset with scripts in python folder. In the preprocessing, RBPsuite data is clustered, selected, shuffled. Then, three types of masks and potential matrices are added, and sequences are tokenized. You need to preprocess before running RBP. Please rename folder names according to your environment. See the flow chart data_flow.pdf for preprocessing. If you would like to test your data, it must be preprocessed, too. 
+Dataset is not included here. However, dataset is made from RBPsuite dataset with scripts in python folder. In the preprocessing, RBPsuite data is clustered, selected, shuffled. Then, three types of masks and potential matrices are added, and sequences are tokenized. You need to preprocess before running RBP. Please rename folder names according to your environment. See the flow chart data_flow.pdf. If you would like to test your data, it must be preprocessed, too. 
 
 ## Statistical Potential
 ![Potentials](data/statpots.png)
-Optimized Statistical potential data is in the data folder (best_pot_subset1_nocv.csv). See the ordinate of the figure above for the annotation of the values. For example, the first column is the statistical potential between ALA and Adenine, and the value is around -0.11.
+Optimized Statistical potential data is in the data folder (best_pot_subset1_nocv.csv). See the ordinate of the figure above for the annotation of the values. For example, the first column is the statistical potential between ALA and Adenine, and the value is around -0.11. The value is normalized so that the length of the 116 dimensional vector is 1.0.
 
 # How to Run
 ## preprocessing
