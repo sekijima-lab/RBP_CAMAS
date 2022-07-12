@@ -15,11 +15,11 @@ import numpy as np
 # -------------------------------------------------------------------
 mode = "all"  # all or lnc
 if mode == "all":
-    ipath = "/Users/mac/Documents/transformer_tape_dnabert/data/clusteredRBPsuite/"
-    opath = "/Users/mac/Documents/transformer_tape_dnabert/data/clusteredRBPsuite/82/"
+    ipath = "data/clusteredRBPsuite/"
+    opath = "data/clusteredRBPsuite/82/"
 else:
-    ipath = "/Users/mac/Documents/transformer_tape_dnabert/data/clusteredRBPsuite_lncRNA_RNA_only/"
-    opath = "/Users/mac/Documents/transformer_tape_dnabert/data/clusteredRBPsuite_lncRNA_RNA_only/82/"
+    ipath = "data/clusteredRBPsuite_lncRNA_RNA_only/"
+    opath = "data/clusteredRBPsuite_lncRNA_RNA_only/82/"
 
 if not os.path.exists(opath):
     os.mkdir(opath)
