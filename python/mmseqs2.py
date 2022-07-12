@@ -18,9 +18,9 @@ from subprocess import call
 # opath = "/Users/mac/Documents/transformer_tape_dnabert/data/clusteredRBPsuite"
 
 # --------- lncRNA only ----------
-ipath2 = "/Users/mac/Desktop/t3_mnt/transformer_tape_dnabert/data/lncRNA_in_RBPsuite/"
-ipath = "/Users/mac/Desktop/t3_mnt/transformer_tape_dnabert/data/lncRNA_in_RBPsuite/with_headers/"
-opath = "/Users/mac/Documents/transformer_tape_dnabert/data/clusteredRBPsuite_lncRNA_RNA_only/"
+ipath2 = "data/lncRNA_in_RBPsuite/"
+ipath = "data/lncRNA_in_RBPsuite/with_headers/"
+opath = "data/clusteredRBPsuite_lncRNA_RNA_only/"
 
 # -------------------------------------------------------------------
 # function
